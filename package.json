@@ -1,0 +1,16 @@
+{
+  "name": "pono_frontend_utils",
+  "version": "1.0.0",
+  "description": "Common functionality for pono frontend apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "immer": "^10.0.2"
+  }
+}
