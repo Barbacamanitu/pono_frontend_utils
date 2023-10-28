@@ -105,6 +105,7 @@ export class API {
   }
   
   
+  
   async SearchTemplates(search: string) {
     const validated_creds = LoginUtil.getValidatedCredsFromLocal();
     const access_token = validated_creds.access_token;
