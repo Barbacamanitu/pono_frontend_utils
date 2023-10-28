@@ -104,6 +104,7 @@ export class API {
     return await this.postDataWithAccessToken(this.api_url + "create_template",create_template_req,access_token);
   }
   
+  
   async SearchTemplates(search: string) {
     const validated_creds = LoginUtil.getValidatedCredsFromLocal();
     const access_token = validated_creds.access_token;
