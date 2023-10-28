@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Common functionality for pono frontend apps",
   "type": "module",
-  "files": ["dist"],
   "types": "dist/index.d.ts",
   "module": "dist/index.js",
   "exports": {
