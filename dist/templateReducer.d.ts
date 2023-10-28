@@ -1,0 +1,20 @@
+import { Template } from "./Template";
+export type TemplateAction = {
+    type: string;
+    field_uuid?: string;
+    section_uuid?: string;
+    isInput?: boolean;
+    temperature?: number;
+    system_prompt?: string;
+    max_tokens?: number;
+    model?: string;
+    description?: string;
+    name?: string;
+    input?: string;
+    generation_prompt?: string;
+    data_type?: string;
+    template?: Template;
+    help_text?: string;
+    insert_after?: number;
+};
+export declare function TemplateReduce(draft: Template, action: TemplateAction): Template;
